@@ -7,13 +7,20 @@
 
     <!-- custom css file link  -->
     <link rel="stylesheet" href="style.css">
+
+    <!-- swiper js file link  -->
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+
 </head>
 <body>
     <!-- header section starts -->
     <header class="header">
       
         <section class="flex">
-            <a href="#home" class="logo"> <img src="/img/logo/logo.png" alt="dotajlogo"></a>
+            <a href="#home" class="logo"> <img src="/img/logo/stylaxx_166_104.png" alt="stylaxx"></a>
 
             <nav class="navbar">
                 <a href="#home">Home</a>
@@ -35,9 +42,12 @@
 
 <!-- about section start  -->
 <section id="about" class="about">
+    <div>
+        <marquee behavior="alternate" scrollamount="6" direction="left">EID COLLECTION, STYLAXX GIVE YOU BEST PRODUCT, IN-SHA-ALLAH!</marquee>
+    </div>
     <div class="flex">
         <div class="image">
-            <img src="/img/bnr/abt-logo.png" alt="">
+            <img src="/img/bnr/abt-logo-th.png" alt="">
         </div>
         <div class="content">
             <h3>Ramadan Mubarak</h3>
@@ -53,13 +63,165 @@
             <a href="" class="btn">Read more</a>
         </div>
         <div class="image">
-            <img src="/img/bnr/abt-logo.png" alt="">
+            <img src="/img/bnr/abt-logo-tw.png" alt="">
         </div>
     </div>
 </section>
 <!-- about section end  -->
 
-<!-- link with js file  -->
+<!-- count down section start  -->
+<div class="offer-countdwon">
+
+<section class="content">
+        
+<h3>Hurry up!</h3>
+<p>Offers ends in :</p>
+<div class="flex">
+    <div class="box">
+        <div class="count" id="day">00</div>
+        <span>days</span>
+    </div>
+    <div class="box">
+        <div class="count" id="hour">00</div>
+        <span>Hours</span>
+    </div>
+    <div class="box">
+        <div class="count" id="minute">00</div>
+        <span>minutes</span>
+    </div>
+    <div class="box">
+        <div class="count" id="second">00</div>
+        <span>seconds</span>
+    </div>
+</div>
+
+<a href="#offers" class="btn">view offers</a>
+
+</section>
+
+</div>
+<!-- count down section end  -->
+
+<!-- offer section start  -->
+<section class="offers" id="offers">
+    <div class="swiper prouducts-slider">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide box ">
+                <img src="/img/product/phn-pic.png" alt="">
+                <h3>smart phones</h3>
+                <p>upto 20% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/img/product/wtch-pic.png" alt="">
+                <h3>smart watchs</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/img/product/phn-pic.png" alt="">
+                <h3>Cloths</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/img/product/wtch-pic.png" alt="">
+                <h3>shoes</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/img/product/phn-pic.png" alt="">
+                <h3>Laptops</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/img/product/wtch-pic.png" alt="">
+                <h3>Sarees</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/img/product/phn-pic.png" alt="">
+                <h3>Bags</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+            <div class="swiper-slide box">
+                <img src="/img/product/wtch-pic.png" alt="">
+                <h3>casual wear</h3>
+                <p>upto 30% off</p>
+                <a href="#" class="btn">Let's go</a>
+            </div>
+
+        </div>
+        <div class="swiper-pagination"></div>
+    </div>
+</section>
+<!-- offer section end  -->
+
+<!-- contact section start  -->
+    <div class="contact-container">
+        <section class="row">
+            <div class="info-containaer">
+                <div class="box">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h3>address</h3>
+                        <p>Ashulia, Savar</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h3>Phone</h3>
+                        <p>+880 19966 75960</p>
+                        <p>+880 14062 08228</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h3>Email</h3>
+                        <p>ajjiad.cse@gmail.com</p>
+                        <p>jslworld365@gmail.com</p>
+                    </div>
+                </div>
+            </div>
+            <form action="" method="post">
+                <h2>get in touch</h2>
+                <div class="flex">
+                    <input type="text" name="name" maxlength="30" placeholder="Enter Name" class="input">
+                    <input type="number" name="number" maxlength="10" placeholder="Enter number" class="input">
+                </div>
+                <input type="email" name="email" maxlength="10" placeholder="Enter email" class="input">
+                <textarea name="message" maxlength="1000" class="input" placeholder="Your message" id="" cols="30" rows="10"></textarea>
+                <input type="submit" value="send message" class="btn">
+            </form>
+        </section>
+    </div>
+<!-- contact section end  -->
+
+<!-- footer section start -->
+<footer class="footer">
+    <section>Created by <span>Source 365</span> | All rights reserved</section>
+</footer>
+<!-- footer section end -->
+
+
+<!-- link with swiper-js file  -->
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- link with js-main file  -->
     <script src="main.js"></script>
+    
 </body>
 </html>
